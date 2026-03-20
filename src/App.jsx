@@ -30,7 +30,7 @@ function App() {
           </div>
         )}
 
-        <button className="upload-btn">Upload</button>
+        <button className="upload-btn">Uploadbutton</button>
       </div>
     </div>
   );
