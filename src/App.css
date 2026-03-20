@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Card */
+.upload-card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: gray;
+  margin-bottom: 20px;
+}
+
+/* Upload Box */
+.upload-box {
+  border: 2px dashed #4facfe;
+  padding: 30px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.upload-box:hover {
+  background: #f0f8ff;
+}
+
+/* File Info */
+.file-info {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+/* Button */
+.upload-btn {
+  margin-top: 20px;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  background: #4facfe;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.upload-btn:hover {
+  background: #2b8df7;
+}
